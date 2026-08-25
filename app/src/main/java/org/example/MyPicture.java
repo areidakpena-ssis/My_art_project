@@ -45,6 +45,8 @@ public class MyPicture {
         SimpleGraphics.setOutlineColor("blue");
         SimpleGraphics.setLineThickness(8);
         SimpleGraphics.drawSmoothCurve(riverPoints);
+
+        SimpleGraphics.drawCactus(100, 200, 50, 100);
     }
 
     public static void main(String[] args) {

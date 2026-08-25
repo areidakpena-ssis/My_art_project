@@ -186,6 +186,22 @@ public class SimpleGraphics extends Application {
         gc.stroke();
     }
 
+    /**
+     * AI Attribution: Generated with Gemini.
+     * Prompt: "I'd like a function to draw a green cactus; parameters: position and size"
+     */
+    public static void drawCactus(double x, double y, double width, double height) {
+        gc.setFill(toColor("green"));
+        // Main trunk
+        gc.fillRect(x + width * 0.35, y, width * 0.3, height);
+        // Left arm
+        gc.fillRect(x + width * 0.1, y + height * 0.4, width * 0.3, height * 0.12);
+        gc.fillRect(x + width * 0.1, y + height * 0.2, width * 0.12, height * 0.3);
+        // Right arm
+        gc.fillRect(x + width * 0.6, y + height * 0.5, width * 0.3, height * 0.12);
+        gc.fillRect(x + width * 0.78, y + height * 0.3, width * 0.12, height * 0.32);
+    }
+
     // ----- color helpers -----
 
     private static final Map<String, Color> NAMED_COLORS = new HashMap<>();
