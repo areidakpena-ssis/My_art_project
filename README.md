@@ -1,3 +1,10 @@
+# My Art Project
+
+Current state of art project. 
+![Scence with one cactus, mountain in background, and red sun.](image.png)
+
+
+
 # SimpleGraphics (Java / JavaFX)
 
 Starter code for creating a static image with JavaFX's Canvas — the Java version of the tessellation
